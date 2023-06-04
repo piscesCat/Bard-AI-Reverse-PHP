@@ -27,7 +27,7 @@ composer require khaiphan/bard-reverse:dev-main
 require 'vendor/autoload.php';
 ```
 
-2. Next, create an instance of the `Bard` class and provide your OpenAI username and password:
+2. Next, create an instance of the `Bard` class and provide cookie Google Bard AI:
 
 ```php
 use KhaiPhan\Google\Bard;
