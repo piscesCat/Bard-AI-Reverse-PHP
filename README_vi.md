@@ -9,7 +9,7 @@ Bard-AI-Reverse là một gói Composer cho phép bạn tương tác với Googl
 
 ## Cài đặt
 
-Phiên bản PHP tối thiểu yêu cầu là 7.0
+Phiên bản PHP tối thiểu yêu cầu là 7.2.5
 
 Sử dụng [Composer](https://getcomposer.org) để cài đặt gói.
 
