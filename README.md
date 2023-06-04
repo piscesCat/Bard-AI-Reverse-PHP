@@ -9,7 +9,7 @@ Bard-AI-Reverse is a Composer package that allows you to interact with Google Ba
 
 ## Installation
 
-Minimum PHP version required is 7.0
+Minimum PHP version required is 7.2.5
 
 Use [Composer](https://getcomposer.org) to install the package.
 
