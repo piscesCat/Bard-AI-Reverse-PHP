@@ -159,10 +159,7 @@ class Bard
     {
         $resp_dict = json_decode(explode("\n", $response)[3], true)[0][2];
         if (!$resp_dict) {
-            return [
-                "content" =>
-                    "Response Error: " . $response,
-            ];
+            throw new Exception("Request error maybe you have to use proxy: " . $response);
         }
         $parsed_answer = json_decode($resp_dict, true);
         $choices = array_map(function ($item) {
