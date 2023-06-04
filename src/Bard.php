@@ -94,7 +94,7 @@ class Bard
 
         // Set the parameters and form data
         $params = [
-            "bl" => "boq_assistant-bard-web-server_20230419.00_p1",
+            "bl" => "boq_assistant-bard-web-server_20230530.14_p0",
             "_reqid" => $this->reqid,
             "rt" => "c",
         ];
