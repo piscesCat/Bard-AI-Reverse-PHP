@@ -27,7 +27,7 @@ composer require khaiphan/bard-reverse:dev-main
 require 'vendor/autoload.php';
 ```
 
-2. Tiếp theo, tạo một instance của lớp `Bard` và cung cấp tên người dùng và mật khẩu OpenAI của bạn:
+2. Tiếp theo, tạo một instance của lớp `Bard` và cung cấp Cookie đăng nhập Google Bard AI:
 
 ```php
 use KhaiPhan\Google\Bard;
